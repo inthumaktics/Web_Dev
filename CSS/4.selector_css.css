@@ -1,0 +1,50 @@
+/*UNIVERSAL SELECTOR */
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* TYPE SELECTOR */
+h1 {
+    color: darkred;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: chocolate;
+}
+
+/* CLASS SELECTOR */
+li.prk {
+    color: darkolivegreen;
+}
+
+/* ID SELECTOR */
+#islam {
+    color: maroon;
+}
+
+/* CHILD SELECTOR */
+h1>b {
+    background-color: antiquewhite;
+}
+
+li>b{
+    color: green;
+}
+
+/* DECENDEANT SELECTOR */
+
+p b {
+    background-color: azure;
+}
+
+/* ADJACENT SIBLING SELECTOR */
+p+h3 {
+    color: darkblue;
+
+}
+
+/* GENERAL SIBLING SELECTOR  */
+h3~p {
+    background-color: lavender;
+}
