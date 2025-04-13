@@ -1,0 +1,40 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Aturan terakhir */
+i {
+    color: antiquewhite;
+}
+
+i {
+    color: aquamarine;
+}
+
+i{
+    color: darkcyan;
+}
+
+/* Spesific */
+b {
+    color: red; /* level 1*/
+}
+
+p b {
+    color:burlywood !important; /*level 3 */
+}
+
+p b {
+    color: brown;  /*level 2*/
+}
+
+
+/*Studi Kasus */
+p {
+    font-size: 100%;
+}
+
+p#jenis {
+    font-size: 80%;
+    color: darkgray;
+}
